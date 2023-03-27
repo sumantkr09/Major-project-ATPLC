@@ -7,42 +7,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Science Expertise Contact Us</title>
     <style>
+        @media only screen and (max-width:550px){
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .heading{
+                font-size: 10px;
+                font-weight: bolder;
+            }
+
+        }
         body{
             background-color: bisque;
             margin: 0px;
             padding: 0px;
         }
-       form{
-            display:flex;
-            flex-direction: column;
-            width: 420px;
-            align-items: center;
-            color: orangered;
-            background-color:bisque;
-            border: 2px solid red;
-            border-radius: 3px;
+        #mForm{
+           display:flex;
+           border: 2px solid black;
+           width:auto;
+           height:250px;
+           justify-content: center;
+           align-items: center;
+        }
+           
+           .mForm1{
+               border: 1px solid blueviolet;
+               border-radius: 5px;
+               text-align: center;
            }
            a{
             background-color: yellow;
             display: block;
-            width: 150px;
+            width: 90px;
             margin:10px auto;
+        }
+        img{
+            display: block;
+            width: 120px;
+            margin: 5px auto;
         }
         </style>
 </head>
 
 <body>
-    <h1 style="text-align: center;color: red;">How to contact with Us??</h1>
-    <h3 style="text-align: center;color: darkblue;">It is very simple.You can call us dirctly at the given number or you can fill the form if you want call from our side...</h3>
-    <h3 style="text-align: center;color: brown;">Phone No.:+91 8765******/+91 81145*****</h3>
+    <img src="Logo.jpg" alt="Logo">
+    <div class="heading">
+        <h2 style="text-align: center;color: red;">How to contact with Us??</h2>
+        <h3 style="text-align: center;color: darkblue;">It is very simple.You can call us dirctly at the given number or you can fill the form if you want call from our side...</h3>
+        <h3 style="text-align: center;color: brown;">Phone No.:+91 8765******/+91 81145*****</h3>
+    </div>
     <form action="backend.php">
-        <h3>Fill the form below to ontact with us:</h3>
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Enter Your name">
-        </div>
-        <br>
-        <div>
+        <div id="mForm">
+            <div class="mForm1">
+
+                <h3>Fill the form below to ontact with us:</h3>
+                <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Your name">
+            </div>
+            <br>
+            <div>
             <label for="email">Email:</label>
             <input type="email" id="email" placeholder="Enter your Email">
         </div>
@@ -55,12 +81,14 @@
         <div>
             <input type="submit" value="Submit Now">
         </div>
-
+    </div>
+        
     </form>
+</div>
     <h3 style="text-align: center;color: brown;">Good Luck</h3>
     <h3 style="text-align: center;color: brown;">Thank You for visiting us!!</h3>
-
-    <a href="index.html">Click Here to GO back</a>
+    
+    <a href="index.html">👉GO back</a>
 </body>
 
 </html>

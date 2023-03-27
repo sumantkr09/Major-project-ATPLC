@@ -7,8 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Science Expertise</title>
     <style>
+        @media only screen and (max-width:550px){
+             *{
+                /* background-color: red; */
+             }
+             p{
+                font-size:12px;;
+             }
+
+        }
         body{
             background-color: bisque;
+        }
+        #text{
+            border: 3px solid black;
+            padding: 4px;
         }
         p{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,38 +31,48 @@
         a{
             background-color: yellow;
             display: block;
-            width: 150px;
+            width: 90px;
             margin:10px auto;
+        }
+        img{
+            width: 120px;
+            display: block;
+            margin:0px auto;
         }
     </style>
 </head>
 
 <body>
+    <img src="Logo.jpg" alt="Logo">
     <h1 style="text-align: center; color:blueviolet;">Science Expertise</h1>
-    <ul>
-        <li>
-            <p>A well-known <b>Online Education Platform</b> among the students which makes their Science concept easy
-                so
-                that they can enjoy study instead of taking it as burden.</p>
-        </li>
-
-        <li>
+    <div id="text">
+        <div class="text1">
+            <ul>
+                <li>
+                    <p>A well-known <b>Online Education Platform</b> among the students which makes their Science concept easy
+                        so
+                        that they can enjoy study instead of taking it as burden.</p>
+                    </li>
+                    
+                    <li>
             <p>We have a YouTube Channel with the same name "Science Expertise" on which we have created high quality
                 content material for free.Please check it once.You feel Happy!!</p>
-        </li>
-        <li>
+            </li>
+            <li>
             <p>We also provide paid courses at very lowest cost so that financially weak students can also afford
                 that.We
                 believe in making the things affordable as much as possible in education industry.</p>
-        </li>
-        <li>
-            <p>We are providing content related to GATE Exam preparation,JEE/NEET preparation,11th/12th Boards &
-                Foundational courses till now.<b>We will enter into the various other educational field very soon.</b>
-            </p>
-        </li>
-        <h2 style="text-align: center;color:darkred;">Stay tuned with us!!</h2>
-    </ul>
-    <a href="index.html">Click here to GO Back</a>
+            </li>
+            <li>
+                <p>We are providing content related to GATE Exam preparation,JEE/NEET preparation,11th/12th Boards &
+                    Foundational courses till now.<b>We will enter into the various other educational field very soon.</b>
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+<h2 style="text-align: center;color:darkred;">Stay tuned with us!!</h2>
+    <a href="index.html">👉GO Back</a>
 </body>
 
 </html>
