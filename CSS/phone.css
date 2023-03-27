@@ -5,7 +5,7 @@
 }
 #navbar ul li a{
       font-size: 1rem;
-      padding: 0px 7px;
+      padding: 0px 5px;
 }
 
 
@@ -13,18 +13,26 @@
 
 #home{
     height:417px;
-    padding: 5px 65px;
+    padding: 3px 0px;
 }
 #home::before{
-    height: 540px;
+    height:520px;
 }
 #home p{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 /* Services Section */
 #services{
     flex-direction: column;
+}
+#services .box img{
+width:150px;
+}
+#services .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
 }
 /* Client Section */
 #clients{
